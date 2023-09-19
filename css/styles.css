@@ -1,12 +1,87 @@
-:root{
-    --title-color: #111111;
-    --bckg-color: #1E1823;
-    --accent-color: #FD9222;
-    --text-color: #FFFFFF;
+:root {
+  --title-color: #111111;
+  --bckg-color: #1e1823;
+  --accent-color: #fd9222;
+  --text-color: #ffffff;
 
-    --font-main: 'Montserrat', sans-serif;
+  --font-main: "Montserrat", sans-serif;
 }
 
-body{
-    font-family: var(--font-main);
+body {
+  font-family: var(--font-main);
+}
+.header {
+}
+.navigation {
+}
+.logo {
+}
+.logo-text {
+  color: var(--title-color, #111);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+.logo-icon {
+}
+.header-menu-list {
+}
+.header-item {
+}
+.header-link {
+  color: var(--title-color, #111);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+.header-socials {
+}
+.header-social {
+}
+.header-social-link {
+}
+.header-icon {
+}
+/* Hero */
+.hero {
+}
+.hero-title {
+  color: var(--text-color);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+}
+.hero-buy {
+}
+.hero-made {
+}
+.hero-scroll {
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+}
+.hero-arrow {
+}
+.btn {
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+}
+.benefits {
+}
+.benefits-title {
+}
+.benefits-list {
+}
+.benefit-item {
+}
+.benefit-subtitle {
+}
+.benefit-text {
 }
