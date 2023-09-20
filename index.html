@@ -10,12 +10,20 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
       <nav class="navigation">
-        <a class="logo" href="./index.html">
+        <a class="link logo" href="./index.html">
           <span class="logo-text"><i>SIMPLY</i> CHOCOLATE</span>
           <svg
             class="logo-icon"
@@ -46,20 +54,22 @@
           </svg>
         </a>
 
-        <ul class="header-menu-list">
-          <li class="header-item"><a class="header-link" href="">Home</a></li>
+        <ul class="header-menu-list list">
           <li class="header-item">
-            <a class="header-link" href="">How it’s made?</a>
+            <a class="link header-link" href="">Home</a>
           </li>
           <li class="header-item">
-            <a class="header-link" href="">Chocolate is loved</a>
+            <a class="link header-link" href="">How it’s made?</a>
+          </li>
+          <li class="header-item">
+            <a class="link header-link" href="">Chocolate is loved</a>
           </li>
         </ul>
       </nav>
 
-      <ul class="header-socials">
+      <ul class="header-socials list">
         <li class="header-social">
-          <a class="header-social-link" href="">
+          <a class="link header-social-link" href="">
             <svg
               class="header-icon"
               xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +86,7 @@
           </a>
         </li>
         <li class="header-social">
-          <a class="header-social-link" href="">
+          <a class="link header-social-link" href="">
             <svg
               class="header-icon"
               xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +107,7 @@
           </a>
         </li>
         <li class="header-social">
-          <a class="header-social-link" href="">
+          <a class="link header-social-link" href="">
             <svg
               class="header-icon"
               xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +146,7 @@
       <!-- section-benefits  -->
       <section class="benefits">
         <h2 class="benefits-title">Benefits</h2>
-        <ul class="benefits-list">
+        <ul class="benefits-list list">
           <li class="benefit-item">
             <h3 class="benefit-subtitle">Unsurpassed taste</h3>
             <p class="benefit-text">
@@ -169,10 +179,13 @@
       </section>
       <!-- Gallery -->
       <section class="gallery">
-        <h2 class="gallery-title">It all adds up to one exceptional <span>taste</span> sensation</h2>
-        <ul class="gallery-list">
+        <h2 class="gallery-title">
+          It all adds up to one exceptional <span>taste</span> sensation
+        </h2>
+        <ul class="gallery-list list">
           <li class="gallery-item">
-            <img class="images-gallery"
+            <img
+              class="images-gallery"
               src="./images/gallary/img-1.png"
               width="214"
               height="160"
@@ -181,7 +194,8 @@
             <h3 class="gallery-subtitle">MILK CHOCOLATE</h3>
           </li>
           <li class="gallery-item">
-            <img class="images-gallery"
+            <img
+              class="images-gallery"
               src="./images/gallary/img-2.png"
               width="214"
               height="160"
@@ -190,7 +204,8 @@
             <h3 class="gallery-subtitle">MILK</h3>
           </li>
           <li class="gallery-item">
-            <img class="images-gallery"
+            <img
+              class="images-gallery"
               src="./images/gallary/img-3.png"
               width="214"
               height="160"
@@ -199,7 +214,8 @@
             <h3 class="gallery-subtitle">NUTS</h3>
           </li>
           <li class="gallery-item">
-            <img class="images-gallery"
+            <img
+              class="images-gallery"
               width="214"
               height="160"
               src="./images/gallary/img-4.png"
@@ -208,7 +224,8 @@
             <h3 class="gallery-subtitle">SEMI - SWEET CHOCOLATE</h3>
           </li>
           <li class="gallery-item">
-            <img class="images-gallery"
+            <img
+              class="images-gallery"
               src="./images/gallary/img-5.png"
               width="214"
               height="160"
@@ -217,7 +234,8 @@
             <h3 class="gallery-subtitle">CACAO</h3>
           </li>
           <li class="gallery-item">
-            <img class="images-gallery"
+            <img
+              class="images-gallery"
               src="./images/gallary/img-6.png"
               width="214"
               height="160"
@@ -226,7 +244,8 @@
             <h3 class="gallery-subtitle">RASPBERRY</h3>
           </li>
           <li class="gallery-item">
-            <img class="images-gallery"
+            <img
+              class="images-gallery"
               src="./images/gallary/img-7.png"
               width="214"
               height="160"
@@ -248,7 +267,7 @@
         <h3>
           Try our chocolates today and discover the perfect balance of flavor
         </h3>
-        <ul>
+        <ul class="list">
           <li>
             <p>
               Heat the milk in a saucepan without bringing it to a boil. Add
@@ -283,7 +302,7 @@
       <section>
         <h2>Our products</h2>
 
-        <ul>
+        <ul class="list">
           <li>
             <article>
               <img
@@ -393,7 +412,7 @@
       <!-- Top Sellers -->
       <section class="top">
         <h2 class="top-title">Top sellers</h2>
-        <ul class="top-list">
+        <ul class="top-list list">
           <li class="top-item">
             <img
               src="./images/top/img-1.jpg"
@@ -429,7 +448,7 @@
       <!-- Reviews -->
       <section class="reviews">
         <h2 class="reviews-title">Chocolate is loved</h2>
-        <ul class="reviews-list">
+        <ul class="reviews-list list">
           <li class="reviews-item">
             <img
               src="./images/reviews/img-1.jpg"
@@ -478,33 +497,33 @@
         <span>Chocolate</span> a delicious cure for a bad day
       </p>
       <h3 class="footer-title">Social networks</h3>
-      <ul class="footer-socials">
+      <ul class="footer-socials list">
         <li class="footer-social"></li>
         <li class="footer-social"></li>
         <li class="footer-social"></li>
       </ul>
       <h3 class="footer-title">Contact us</h3>
       <address class="footer-address">
-        <ul class="footer-contacts">
+        <ul class="footer-contacts list">
           <li class="footer-contact">
-            <a href="tel:+380684439426" class="footer-link"
+            <a href="tel:+380684439426" class="link footer-link"
               >+380 (68) 443-94-26</a
             >
           </li>
           <li class="footer-contact">
-            <a href="mailto:simplychoc@gmail.com" class="footer-link"
+            <a href="mailto:simplychoc@gmail.com" class="link footer-link"
               >simplychoc@gmail.com</a
             >
           </li>
         </ul>
       </address>
-      <ul class="footer-menu">
+      <ul class="footer-menu list">
         <li class="footer-item"><a href="" class="footer-page">Home</a></li>
         <li class="footer-item">
-          <a href="" class="footer-page">How it’s made?</a>
+          <a href="" class="link footer-page">How it’s made?</a>
         </li>
         <li class="footer-item">
-          <a href="" class="footer-page">Chocolate is loved</a>
+          <a href="" class="link footer-page">Chocolate is loved</a>
         </li>
       </ul>
     </footer>
