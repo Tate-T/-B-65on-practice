@@ -138,18 +138,24 @@ body {
 
 /* benefits section */
 .benefits {
+  background-color: var(--bckg-color);
+  padding: 50px 0;
 }
 .benefits-title {
 }
 .benefits-list {
+  display: flex;
+  justify-content: space-between;
 }
 .benefit-item {
+  width: 308px;
 }
 .benefit-subtitle {
   color: var(--text-color, #fff);
   font-size: 18px;
   font-weight: 600;
   line-height: 1.22;
+  margin-bottom: 18px;
 }
 
 .benefit-text {
