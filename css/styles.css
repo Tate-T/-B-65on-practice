@@ -17,6 +17,9 @@ body {
 .navigation {
 }
 .logo {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo-text {
   color: var(--title-color, #111);
@@ -49,8 +52,18 @@ body {
 }
 /* Hero */
 .hero {
+  padding-bottom: 80px;
+  outline: solid blue;
 }
+.hero .container {
+  border-radius: 30px;
+  background: rgba(17, 17, 17, 0.7);
+  padding: 381px 40px 40px;
+}
+
 .hero-title {
+  max-width: 484px;
+  margin-bottom: 32px;
   color: var(--text-color);
   font-size: 28px;
   font-weight: 500;
@@ -81,26 +94,24 @@ body {
 .benefits {
 }
 .benefits-title {
-
 }
 .benefits-list {
-
 }
 .benefit-item {
 }
 .benefit-subtitle {
-  color: var(--text-color, #FFF);
-font-size: 18px;
-font-weight: 600;
-line-height: 1.22;
+  color: var(--text-color, #fff);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.22;
 }
 
 .benefit-text {
-  color: rgba(255, 255, 255, 0.70);
-font-size: 14px;
-font-weight: 400;
-line-height: 1.28;
-letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
 }
 
 /* gallery */
@@ -108,12 +119,12 @@ letter-spacing: -0.02em;
 }
 .gallery-title {
   color: var(--title-color, #111);
-text-align: center;
-font-size: 24px;
-font-weight: 600;
-line-height: 1.16;
-letter-spacing: -0.03em;
-text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
 }
 .gallery-list {
 }
@@ -122,12 +133,12 @@ text-transform: uppercase;
 .images-gallery {
 }
 .gallery-subtitle {
-  color: var(--text-color, #FFF);
-font-size: 14px;
-font-weight: 600;
-line-height: 1.29;
-letter-spacing: -0.02em;
-text-transform: uppercase;
+  color: var(--text-color, #fff);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
 }
 
 .gallery-item:nth-child(2n) .gallery-subtitle {
