@@ -47,10 +47,10 @@ body {
   letter-spacing: -0.03em;
 }
 .logo-icon {
+  fill: #FCF1E0;
 }
 
 .header-menu-list {
-  outline: solid teal;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -67,7 +67,6 @@ body {
   padding: 24px 0;
 }
 .header-socials {
-  outline: solid orange;
   display: flex;
   align-items: center;
   gap: 14px;
@@ -78,11 +77,12 @@ body {
 .header-social-link {
 }
 .header-icon {
+  fill: var(--title-color);
 }
 /* Hero */
 .hero {
   padding-bottom: 80px;
-  outline: solid blue;
+    
 }
 .hero .container {
   border-radius: 30px;
