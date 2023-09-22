@@ -47,6 +47,7 @@ body {
   letter-spacing: -0.03em;
 }
 .logo-icon {
+  fill : #FCF1E0;
 }
 
 .header-menu-list {
@@ -78,6 +79,7 @@ body {
 .header-social-link {
 }
 .header-icon {
+  fill: var(--title-color);
 }
 /* Hero */
 .hero {
