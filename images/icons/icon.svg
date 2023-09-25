@@ -1,6 +1,9 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
+    <symbol id="icon-card" viewBox="0 0 12 8">
+   <path d="M0.857147 4.00002H11.1429M11.1429 4.00002L8.57143 1.42859M11.1429 4.00002L8.57143 6.57145" stroke="#FAFAFA" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
         <symbol id="icon-chocolate" viewBox="0 0 24 24">
             <path
                 d="M3.9579 16.0568L12.0405 2.9886L12.5205 2.48303L18.6973 6.6014L18.7396 9.08665L20.2471 11.5463L13.5873 22.1038L3.9579 16.0568Z"
