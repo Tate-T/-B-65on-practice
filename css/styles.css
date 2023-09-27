@@ -296,6 +296,111 @@ body {
   color: var(--title-color, #111111);
 }
 
+/* how section */
+.how {
+  margin-bottom: 120px;
+  padding-top: 60px;
+}
+
+
+.how-title {
+  color: var(--title-color, #111);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.how-wrapper{
+  display: flex;
+  gap: 20px;
+}
+
+.how-left{
+  position: relative;
+}
+
+.how-left video{
+  border-radius: 15px;
+}
+
+.how-play-btn{
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    width: 44px;
+    height: 44px;
+   padding: 11px 8px 10px 14px;
+}
+
+.how-icon-play{
+  
+  fill: #fff;
+}
+
+.how-right{
+  padding: 32px;
+  border-radius: 15px;
+  background: var(--text-color, #FFF);
+}
+
+.how-style{
+  color: var(--accent-color, #fd9222);
+}
+
+.how-photo {}
+
+.how-subtitle {
+  margin-bottom: 28px;
+  max-width: 350px;
+  color: var(--title-color, #111);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+.how-list {
+  
+}
+
+.list {}
+
+.how-item{
+  position: relative;
+  padding-left: 16px;
+}
+
+.how-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.how-item::before{
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #4C4C4C;
+  outline: 1px solid #ECEDED ;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+.how-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29em;
+  letter-spacing: -0.02;
+}
+
 .backdrop {
   /* display: flex;
   justify-content: center;
