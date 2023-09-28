@@ -97,71 +97,19 @@ body {
 }
 
 /* Hero */
-.hero {
-  padding-bottom: 80px;
-}
 
-.hero .container {
-  border-radius: 30px;
-  background: rgba(17, 17, 17, 0.7);
-  padding: 381px 40px 40px;
-  background-image: linear-gradient(
-      rgba(17, 17, 17, 0.4),
-      rgba(17, 17, 17, 0.4)
-    ),
-    url(../images/hero/hero-bg-optim.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.hero-title {
-  max-width: 484px;
-  margin-bottom: 32px;
-  color: var(--text-color);
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1.21;
-  letter-spacing: -0.03em;
-}
 
-.btn-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
 
-.btn {
-  color: var(--text-color);
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 14px 40px;
-  border-radius: 100px;
-  min-width: 144px;
-  min-height: 45px;
-}
 
-.hero-buy {
-  background-color: var(--accent-color);
-  margin-right: 14px;
-}
 
-.hero-made {
-  background-color: transparent;
-  border: 1px solid #fff;
-}
 
-.arrow-link {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
 
-.arrow-icon {
-  padding: 8px;
-  background-color: var(--text-color);
-  fill: var(--accent-color);
-  border-radius: 50%;
-}
+
+
+
+
+
 
 .hero-scroll {
   color: var(--text-color);

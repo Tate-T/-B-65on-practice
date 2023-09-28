@@ -1,0 +1,39 @@
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 736px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+
+/* HERO */
+.hero {
+    padding-bottom: 40px;
+}
+
+.hero-container {
+    padding: 671px 40px 40px 40px;
+}
+
+.hero-title {
+    font-size: 28px;
+    letter-spacing: -0.84px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-container {
+    margin-bottom: 0;
+}
+
+.btn {
+    padding: 14px 40px;
+    min-width: 144px;
+    min-height: 45px;
+}
+
+}
+
