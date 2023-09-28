@@ -3,14 +3,21 @@
     --bckg-color: #1e1823;
     --accent-color: #fd9222;
     --text-color: #ffffff;
+    --modal-bg-color: #fafafa;
 
     --font-main: "Montserrat", sans-serif;
+
+    --gap: 32px;
+    --items: 4;
 }
 
 body {
     font-family: var(--font-main);
 }
 
+.grid-item {
+    flex-basis: calc((100% - var(--gap) * (var(--items) - 1)) / var(--items));
+}
 
 .visually-hidden {
     position: absolute;

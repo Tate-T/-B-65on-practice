@@ -7,6 +7,88 @@
 
 }
 
+/* Header */
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    gap: 4px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    align-items: center;
+}
+
+.logo-text {
+    color: var(--title-color, #111);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+}
+
+.logo-icon {
+    fill: #fcf1e0;
+}
+
+.header-menu-list {
+    display: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-link {
+    color: var(--title-color, #111);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    padding: 24px 0;
+}
+
+.header-socials {
+    display: none;
+    align-items: center;
+    gap: 14px;
+    margin-left: 28px;
+}
+
+.header-social-link {
+    border-radius: 10px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    padding: 8px;
+    display: flex;
+    color: var(--title-color);
+}
+
+.header-social-link:hover,
+.header-social-link:focus {
+    border: 1px solid rgba(253, 146, 34, 0.10);
+    color: var(--accent-color);
+}
+
+.header-icon {
+    fill: currentColor;
+}
+
+.header-btn{
+    background-color: transparent;
+    width: 28px;
+    height: 28px;
+}
+
+.header-burger{
+    stroke: #111;
+}
+
 /* HERO */
 .hero {
     padding-bottom: 80px;

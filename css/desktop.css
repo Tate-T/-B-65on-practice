@@ -3,15 +3,28 @@
         max-width: 1168px;
     }
 
+    /* Header */
+    .header-socials {
+        margin-left: 90px;
+    }
 
-/* HERO */
-.hero {
-    padding-bottom: 80px;
-}
+    .header-menu-list {
+        gap: 24px;
+    }
 
-.hero-container {
-    padding: 381px 40px 40px;
-}
+    .logo-text {
+        font-size: 18px;
+    }
+
+
+    /* HERO */
+    .hero {
+        padding-bottom: 80px;
+    }
+
+    .hero-container {
+        padding: 381px 40px 40px;
+    }
 
 
 
