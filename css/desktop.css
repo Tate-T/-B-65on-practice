@@ -1,34 +1,57 @@
-@media screen and (min-width:1168px) {
-    .container {
-        max-width: 1168px;
-    }
+@media screen and (min-width: 1168px) {
+  .container {
+    max-width: 1168px;
+  }
 
-    /* Header */
-    .header-socials {
-        margin-left: 90px;
-    }
+  /* Header */
+  .header-socials {
+    margin-left: 90px;
+  }
 
-    .header-menu-list {
-        gap: 24px;
-    }
+  .header-menu-list {
+    gap: 24px;
+  }
 
-    .logo-text {
-        font-size: 18px;
-    }
+  .logo-text {
+    font-size: 18px;
+  }
 
+  /* HERO */
+  .hero {
+    padding-bottom: 80px;
+  }
 
-    /* HERO */
-    .hero {
-        padding-bottom: 80px;
-    }
+  .hero-container {
+    padding: 381px 40px 40px;
+  }
 
-    .hero-container {
-        padding: 381px 40px 40px;
-    }
-
-/* Benefits */
-.benefits-circle {
+  /* Benefits */
+  .benefits-circle {
     margin-bottom: 22px;
-}
+  }
 
+  .benefits-list {
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+
+  .benefit-item {
+    position: relative;
+    padding-left: 44px;
+    padding-right: 44px;
+
+    --item: 3;
+  }
+
+  .benefit-item:not(:last-child)::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 124px;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0%;
+    right: 0;
+    transform: translateY(50%);
+  }
 }
