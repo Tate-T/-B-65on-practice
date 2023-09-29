@@ -69,7 +69,8 @@
         </li>
       </ul>
 
-      <button type="button" class="header-btn">
+      <button type="button" class="header-btn menu-toggle js-open-menu" aria-expanded="false"
+      aria-controls="mobile-menu">
         <svg class="header-burger" width="28" height="28">
           <use href="./images/icons/icon.svg#icon-menu"></use>
         </svg>
@@ -633,6 +634,49 @@
         </form>
       </div>
     </div> -->
+    <div class="menu-container js-menu-container">
+      <button class="menu-close js-close-menu">
+        <svg class="menu-close-svg" width="28" height="28">
+          <use href="./images/icons/icon.svg#icon-x-close"></use>
+        </svg>
+      </button>
+      <ul class="mobile-list list">
+        <li class="mobile-item"><a class="mobile-link link" href="">Home</a></li>
+        <li class="mobile-item"><a class="mobile-link link" href="">How it’s made?</a></li>
+        <li class="mobile-item"><a class="mobile-link link" href="">Chocolate is loved</a></li>
+      </ul>
+
+      <ul class="mobile-socials list">
+        <li class="mobile-socials-item">
+          <a href="" class="mobile-socials-link">
+            <svg class="mobile-social-svg" width="24" height="24">
+              <use href="./images/icons/icon.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-socials-item">
+          <a href="" class="mobile-socials-link">
+            <svg class="mobile-social-svg" width="24" height="24">
+              <use href="./images/icons/icon.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-socials-item">
+          <a href="" class="mobile-socials-link">
+            <svg class="mobile-social-svg" width="24" height="24">
+              <use href="./images/icons/icon.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
   <script src="./js/modal.js"></script>
 </body>
 
